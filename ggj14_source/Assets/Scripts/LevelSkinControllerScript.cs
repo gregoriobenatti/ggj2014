@@ -2,9 +2,9 @@
 using System.Collections;
 
 public class LevelSkinControllerScript : MonoBehaviour {
-	public SpriteRenderer renderer;
-	public Sprite s1;
-	public Sprite s2;
+	//public SpriteRenderer renderer;
+	//public Sprite s1;
+	//public Sprite s2;
 
 	void Start () {
 	
@@ -15,7 +15,7 @@ public class LevelSkinControllerScript : MonoBehaviour {
 	}
 
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.W)){
+		/*if (Input.GetKeyDown(KeyCode.W)){
 		renderer = gameObject.GetComponent<SpriteRenderer>();
 		renderer.sprite = s1;
 		}
@@ -24,7 +24,7 @@ public class LevelSkinControllerScript : MonoBehaviour {
 			renderer = gameObject.GetComponent<SpriteRenderer>();
 			renderer.sprite = s2;
 		}
-
+*/
 
 
 

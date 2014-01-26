@@ -13,7 +13,7 @@ public class GirlControllerScript : MonoBehaviour {
 	public LayerMask whatIsGround;
 	public float jumpForce = 300f;
 	private bool doubleJump = false;
-
+	
 	void Start () {
 		anim = GetComponent<Animator>();
 	}
@@ -27,10 +27,6 @@ public class GirlControllerScript : MonoBehaviour {
 		}
 		
 		anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
-
-		//this condition prevent to move the player if he jump
-		//if (!grounded)
-		//	return;
 
 		float move = Input.GetAxis("Horizontal");
 		anim.SetFloat("speed", Mathf.Abs(move));
@@ -70,6 +66,7 @@ public class GirlControllerScript : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
 }
 
 
