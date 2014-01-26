@@ -829,55 +829,55 @@ Transform:
   m_LocalPosition: {x: -4.20815849, y: -1.93572187, z: 11.5354004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 41935602}
-  - {fileID: 1932576933}
-  - {fileID: 1739563237}
-  - {fileID: 68620344}
-  - {fileID: 1078562494}
-  - {fileID: 201966102}
-  - {fileID: 417961427}
-  - {fileID: 195541407}
-  - {fileID: 656345188}
-  - {fileID: 666794763}
-  - {fileID: 1374849038}
-  - {fileID: 245181105}
-  - {fileID: 2109147270}
-  - {fileID: 1556496836}
-  - {fileID: 1489867305}
-  - {fileID: 44921273}
-  - {fileID: 2009607669}
-  - {fileID: 1455467509}
-  - {fileID: 2009173565}
-  - {fileID: 1267778013}
-  - {fileID: 970435367}
-  - {fileID: 1489788903}
-  - {fileID: 1971034740}
-  - {fileID: 1586800645}
-  - {fileID: 88001784}
-  - {fileID: 837299391}
-  - {fileID: 1027457305}
-  - {fileID: 1526443729}
-  - {fileID: 1247651533}
-  - {fileID: 446117761}
-  - {fileID: 695396510}
-  - {fileID: 496387929}
-  - {fileID: 1034587360}
-  - {fileID: 1733206110}
-  - {fileID: 94884372}
-  - {fileID: 1888025348}
   - {fileID: 1771624012}
-  - {fileID: 1324875509}
-  - {fileID: 593195483}
-  - {fileID: 1403397332}
-  - {fileID: 1421524438}
-  - {fileID: 905123209}
-  - {fileID: 1083248899}
-  - {fileID: 1431873052}
+  - {fileID: 1034587360}
+  - {fileID: 68620344}
+  - {fileID: 201966102}
+  - {fileID: 1489867305}
+  - {fileID: 1733206110}
+  - {fileID: 2009173565}
+  - {fileID: 1526443729}
+  - {fileID: 2009607669}
+  - {fileID: 837299391}
   - {fileID: 1365219022}
-  - {fileID: 1897369082}
+  - {fileID: 1403397332}
+  - {fileID: 88001784}
   - {fileID: 1712662320}
+  - {fileID: 1083248899}
+  - {fileID: 1888025348}
+  - {fileID: 695396510}
+  - {fileID: 1971034740}
+  - {fileID: 44921273}
+  - {fileID: 593195483}
+  - {fileID: 1739563237}
+  - {fileID: 1932576933}
+  - {fileID: 496387929}
+  - {fileID: 1247651533}
+  - {fileID: 195541407}
+  - {fileID: 245181105}
+  - {fileID: 970435367}
+  - {fileID: 446117761}
+  - {fileID: 1556496836}
+  - {fileID: 656345188}
+  - {fileID: 1489788903}
   - {fileID: 18345894}
+  - {fileID: 94884372}
+  - {fileID: 1431873052}
+  - {fileID: 417961427}
+  - {fileID: 1455467509}
+  - {fileID: 1267778013}
+  - {fileID: 2109147270}
+  - {fileID: 41935602}
+  - {fileID: 1374849038}
+  - {fileID: 1324875509}
+  - {fileID: 1586800645}
+  - {fileID: 666794763}
+  - {fileID: 905123209}
+  - {fileID: 1078562494}
+  - {fileID: 1421524438}
+  - {fileID: 1027457305}
   - {fileID: 1145221430}
+  - {fileID: 1897369082}
   m_Father: {fileID: 1874365977}
 --- !u!1001 &234192914
 Prefab:
@@ -2834,6 +2834,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 4294966783
+  whatIsGroundEnemy:
+    serializedVersion: 2
+    m_Bits: 0
   jumpForce: 450
 --- !u!95 &1090184391
 Animator:

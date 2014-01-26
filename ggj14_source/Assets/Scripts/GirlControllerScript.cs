@@ -8,9 +8,11 @@ public class GirlControllerScript : MonoBehaviour {
 	private Animator anim;
 	
 	private bool grounded = false;
+	private bool groundedEnemy = false;
 	public Transform groundCheck;
 	private float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
+	public LayerMask whatIsGroundEnemy;
 	public float jumpForce = 300f;
 	private bool doubleJump = false;
 	
@@ -21,9 +23,16 @@ public class GirlControllerScript : MonoBehaviour {
 	void FixedUpdate () {
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
 		anim.SetBool("ground", grounded);
+
+		groundedEnemy = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGroundEnemy);
+		anim.SetBool("groundEnemy", groundedEnemy);
 		
 		if(grounded){
 			doubleJump = false;
+		}
+
+		if(groundedEnemy){
+			transform.parent.gameObject.AddComponent<GameOverScript>();
 		}
 		
 		anim.SetFloat("vSpeed", rigidbody2D.velocity.y);

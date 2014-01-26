@@ -32,6 +32,12 @@ AnimatorController:
     m_DefaultInt: 1
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+  - m_Name: groundEnemy
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 3
     m_Name: Base Layer
@@ -685,20 +691,6 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110217637}
-      second:
-      - {fileID: 110149280}
-    data:
-      first: {fileID: 110253671}
-      second:
-      - {fileID: 110186939}
-    data:
-      first: {fileID: 110240881}
-      second:
-      - {fileID: 110185404}
-      - {fileID: 110135419}
-      - {fileID: 110117678}
-    data:
       first: {fileID: 0}
       second:
       - {fileID: 110139019}
@@ -732,6 +724,20 @@ StateMachine:
       - {fileID: 110154906}
       - {fileID: 110116459}
       - {fileID: 110187925}
+    data:
+      first: {fileID: 110240881}
+      second:
+      - {fileID: 110185404}
+      - {fileID: 110135419}
+      - {fileID: 110117678}
+    data:
+      first: {fileID: 110253671}
+      second:
+      - {fileID: 110186939}
+    data:
+      first: {fileID: 110217637}
+      second:
+      - {fileID: 110149280}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 60, y: -156, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

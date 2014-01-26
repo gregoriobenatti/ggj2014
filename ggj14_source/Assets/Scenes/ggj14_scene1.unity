@@ -287,6 +287,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 4294966783
+  whatIsGroundEnemy:
+    serializedVersion: 2
+    m_Bits: 1024
   jumpForce: 450
 --- !u!1001 &153329368
 Prefab:
@@ -1224,6 +1227,10 @@ Prefab:
     - target: {fileID: 400000, guid: ba005d148defe4858ac98c939374d78b, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ba005d148defe4858ac98c939374d78b, type: 2}
+      propertyPath: whatIsGroundEnemy.m_Bits
+      value: 1024
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba005d148defe4858ac98c939374d78b, type: 2}
