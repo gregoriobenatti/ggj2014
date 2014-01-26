@@ -17,7 +17,7 @@ public class MenuScript : MonoBehaviour
 		GUI.skin = skin;
 		
 		if (GUI.Button(new Rect(620, 355, buttonWidth, buttonHeight), "Play")){
-			Application.LoadLevel("ggj14_scene1"); 
+			Application.LoadLevel("ggj14_map"); 
 		}
 
 		if (GUI.Button(new Rect(620, 385, buttonWidth, buttonHeight), "Credits")){
