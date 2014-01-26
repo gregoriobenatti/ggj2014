@@ -58,6 +58,10 @@ public class GirlControllerScript : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.Q)){
 			anim.SetInteger("playerSkin", 1);
 		}
+		if (Input.GetKeyDown(KeyCode.E)){
+			anim.SetInteger("playerSkin", 3);
+		}
+
 	}
 	
 	void Flip(){
