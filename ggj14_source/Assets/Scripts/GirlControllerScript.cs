@@ -13,7 +13,7 @@ public class GirlControllerScript : MonoBehaviour {
 	public LayerMask whatIsGround;
 	public float jumpForce = 300f;
 	private bool doubleJump = false;
-	
+
 	void Start () {
 		anim = GetComponent<Animator>();
 	}
@@ -50,6 +50,13 @@ public class GirlControllerScript : MonoBehaviour {
 			if(!doubleJump && !grounded){
 				doubleJump = true;
 			}  
+		}
+
+		if (Input.GetKeyDown(KeyCode.W)){
+			anim.SetInteger("playerSkin", 2);
+		}
+		if (Input.GetKeyDown(KeyCode.Q)){
+			anim.SetInteger("playerSkin", 1);
 		}
 	}
 	
