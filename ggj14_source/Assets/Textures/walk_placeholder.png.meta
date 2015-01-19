@@ -1,6 +1,43 @@
 fileFormatVersion: 2
 guid: 13eab397207a94059a6de2b58bbdbdaa
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: walk_placeholder_0
+    21300002: walk_placeholder_1
+    21300004: walk_placeholder_2
+    21300006: walk_placeholder_3
+    21300008: walk_placeholder_4
+    21300010: walk_placeholder_5
+    21300012: walk_placeholder_6
+    21300014: walk_placeholder_7
+    21300016: walk_placeholder_8
+    21300018: walk_placeholder_9
+    21300020: walk_placeholder_10
+    21300022: walk_placeholder_11
+    21300024: walk_placeholder_12
+    21300026: walk_placeholder_13
+    21300028: walk_placeholder_14
+    21300030: walk_placeholder_15
+    21300032: walk_placeholder_16
+    21300034: walk_placeholder_17
+    21300036: walk_placeholder_18
+    21300038: walk_placeholder_19
+    21300040: walk_placeholder_20
+    21300042: walk_placeholder_21
+    21300044: walk_placeholder_22
+    21300046: walk_placeholder_23
+    21300048: walk_placeholder_24
+    21300050: walk_placeholder_25
+    21300052: walk_placeholder_26
+    21300054: walk_placeholder_27
+    21300056: walk_placeholder_28
+    21300058: walk_placeholder_29
+    21300060: walk_placeholder_30
+    21300062: walk_placeholder_31
+    21300064: walk_placeholder_32
+    21300066: walk_placeholder_33
+    21300068: walk_placeholder_34
+    21300070: walk_placeholder_35
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -50,6 +88,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_1
       rect:
         serializedVersion: 2
@@ -59,6 +98,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_2
       rect:
         serializedVersion: 2
@@ -68,6 +108,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_3
       rect:
         serializedVersion: 2
@@ -77,6 +118,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_4
       rect:
         serializedVersion: 2
@@ -86,6 +128,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_5
       rect:
         serializedVersion: 2
@@ -95,6 +138,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_6
       rect:
         serializedVersion: 2
@@ -104,6 +148,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_7
       rect:
         serializedVersion: 2
@@ -113,6 +158,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_8
       rect:
         serializedVersion: 2
@@ -122,6 +168,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_9
       rect:
         serializedVersion: 2
@@ -131,6 +178,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_10
       rect:
         serializedVersion: 2
@@ -140,6 +188,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_11
       rect:
         serializedVersion: 2
@@ -149,6 +198,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_12
       rect:
         serializedVersion: 2
@@ -158,6 +208,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_13
       rect:
         serializedVersion: 2
@@ -167,6 +218,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_14
       rect:
         serializedVersion: 2
@@ -176,6 +228,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_15
       rect:
         serializedVersion: 2
@@ -185,6 +238,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_16
       rect:
         serializedVersion: 2
@@ -194,6 +248,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_17
       rect:
         serializedVersion: 2
@@ -203,6 +258,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_18
       rect:
         serializedVersion: 2
@@ -212,6 +268,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_19
       rect:
         serializedVersion: 2
@@ -221,6 +278,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_20
       rect:
         serializedVersion: 2
@@ -230,6 +288,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_21
       rect:
         serializedVersion: 2
@@ -239,6 +298,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_22
       rect:
         serializedVersion: 2
@@ -248,6 +308,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_23
       rect:
         serializedVersion: 2
@@ -257,6 +318,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_24
       rect:
         serializedVersion: 2
@@ -266,6 +328,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_25
       rect:
         serializedVersion: 2
@@ -275,6 +338,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_26
       rect:
         serializedVersion: 2
@@ -284,6 +348,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_27
       rect:
         serializedVersion: 2
@@ -293,6 +358,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_28
       rect:
         serializedVersion: 2
@@ -302,6 +368,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_29
       rect:
         serializedVersion: 2
@@ -311,6 +378,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_30
       rect:
         serializedVersion: 2
@@ -320,6 +388,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_31
       rect:
         serializedVersion: 2
@@ -329,6 +398,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_32
       rect:
         serializedVersion: 2
@@ -338,6 +408,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_33
       rect:
         serializedVersion: 2
@@ -347,6 +418,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_34
       rect:
         serializedVersion: 2
@@ -356,6 +428,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: walk_placeholder_35
       rect:
         serializedVersion: 2
@@ -365,5 +438,6 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

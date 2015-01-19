@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GirlControllerScript : MonoBehaviour {
+public class GirlControllerScript : MonoBehaviour 
+{
 	public float maxSpeed = 5f;
 	private bool facingRight = true;
 	
@@ -16,22 +17,26 @@ public class GirlControllerScript : MonoBehaviour {
 	public float jumpForce = 300f;
 	private bool doubleJump = false;
 	
-	void Start () {
+	void Start () 
+	{
 		anim = GetComponent<Animator>();
 	}
 	
-	void FixedUpdate () {
+	void FixedUpdate ()
+	{
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
 		anim.SetBool("ground", grounded);
 
 		groundedEnemy = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGroundEnemy);
 		anim.SetBool("groundEnemy", groundedEnemy);
 		
-		if(grounded){
+		if(grounded)
+		{
 			doubleJump = false;
 		}
 
-		if(groundedEnemy){
+		if(groundedEnemy)
+		{
 			transform.parent.gameObject.AddComponent<GameOverScript>();
 		}
 		
@@ -47,29 +52,36 @@ public class GirlControllerScript : MonoBehaviour {
 			Flip();
 	}
 	
-	void Update(){
-		if ((grounded || !doubleJump) && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow))){
+	void Update()
+	{
+		if ((grounded || !doubleJump) && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)))
+		{
 			anim.SetBool("ground", false);
 			rigidbody2D.AddForce(new Vector2(0, jumpForce));
 			
-			if(!doubleJump && !grounded){
+			if(!doubleJump && !grounded)
+			{
 				doubleJump = true;
 			}  
 		}
 
-		if (Input.GetKeyDown(KeyCode.W)){
+		if (Input.GetKeyDown(KeyCode.W))
+		{
 			anim.SetInteger("playerSkin", 2);
 		}
-		if (Input.GetKeyDown(KeyCode.Q)){
+		if (Input.GetKeyDown(KeyCode.Q))
+		{
 			anim.SetInteger("playerSkin", 1);
 		}
-		if (Input.GetKeyDown(KeyCode.E)){
+		if (Input.GetKeyDown(KeyCode.E))
+		{
 			anim.SetInteger("playerSkin", 3);
 		}
 
 	}
 	
-	void Flip(){
+	void Flip()
+	{
 		facingRight = !facingRight;
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
